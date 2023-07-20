@@ -1,5 +1,5 @@
 # ExercicioemJs
-Calculando o consumo de agua com condições relacionais
+previsao do tempo com condições relacionais
 
 <!DOCTYPE html>
 <html lang="pt-br">
