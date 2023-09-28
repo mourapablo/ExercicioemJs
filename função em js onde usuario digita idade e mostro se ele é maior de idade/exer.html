@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="res"></div>
+    <script>
+        /*Condições: Escreva um programa que pergunte ao usuário sua idade e imprima se ele é maior ou menor de idade.*/
+
+        function maiorIdade(){
+            let idade = Number(prompt('Digite sua idade'));
+            if(idade>=18){
+                document.getElementById('res').innerHTML = `O usuário tem ${idade} anos, sendo maior de idade`
+            }else{
+                document.getElementById('res').innerHTML = `O usuário tem ${idade} anos, sendo menor de idade`
+            }
+        }
+        maiorIdade()
+    </script>
+</body>
+</html>
