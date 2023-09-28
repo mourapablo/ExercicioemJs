@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mensagem"></div>
+
+    <script>
+        function ordemCrescente(num1,num2,num3){
+            let numeros =[num1,num2,num3]
+            numeros.sort(function(a,b){
+                return a-b
+            })
+            return numeros
+        }
+        alert(ordemCrescente(30,1,45))
+    </script>
+</body>
+</html>
